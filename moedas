@@ -1,0 +1,9 @@
+public class moedas : MonoBehaviour
+{
+    static void Main()
+    {
+        System.Random gerador = new System.Random(); // vai criar um "gerador de números"
+        int numdeMoedas = gerador.Next(1, 10); //o gerador escolhe o número de 1 a 10
+        Console.WriteLine('Número de moedas no cofre: {numdeMoedas}'); //escrevendo a quantidade de moedas que tem no cofre
+    }
+}
